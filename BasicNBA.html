@@ -84,8 +84,42 @@
 			</div>
 		</div>
 		<div class="jumbotron">
-			<h1>Possible Section for Important Notes</h1>
-			<p>Thinking about leaving current notes here that need attention</p>
+			<form class="form-inline">
+				<label class="mr-sm-2" for="HomeTeam"></label>
+				<select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="HomeTeam">
+					<option selected>Home</option>
+					<option value="1">Bulls</option>
+					<option value="2">Magic</option>
+					<option value="3">Thunder</option>
+				</select>
+				
+				<label class="mr-sm-2" for="VisitingTeam"></label>
+				<select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="VisitingTeam">
+					<option selected>Away</option>
+					<option value="1">Bulls</option>
+					<option value="2">Magic</option>
+					<option value="3">Thunder</option>
+				</select>
+				
+				<label class="mr-sm-2" for="Line"></label>
+				<select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="Line">
+					<option selected>Line</option>
+					<option value="1">0</option>
+					<option value="2">-.5</option>
+					<option value="3">-1</option>
+				</select>
+				
+				<label class="mr-sm-2" for="Total"></label>
+				<select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="Total">
+					<option selected>Total</option>
+					<option value="1">180</option>
+					<option value="2">181</option>
+					<option value="3">182</option>
+				</select>
+
+
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
 		</div>
 	</div>
     <!-- /.container -->
